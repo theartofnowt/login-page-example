@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Arial';
+}
+
+.wrap {
+  width: 100%;
+  background-image: url("img/old lady.png");
+  min-height: 780px;
+  overflow: hidden;
+}
+
+.wrap .wrap-logo {
+  width: 100%;
+  height: 20%;
+
+
+}
+
+.wrap .wrap-logo img {
+  padding-top: 5%;
+  margin-left: 20%;
+  top: 20%;
+}
+
+.wrap .content {
+  width: 291px;
+  min-height: 305px;
+  border-radius: 20px;
+  background: white;
+  border: solid 2px #FFFFFF;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  z-index: 99;
+}
+
+.wrap .content .input-form {
+  color: White;
+  font-size: 18px;
+  width: 240px;
+  height: 50px;
+  padding-left: 10px;
+  background: #F5A623;
+  border-radius: 14px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #FFFFFF;
+}
+
+.wrap .content .input-form:nth-child(1) {
+  margin-top: 20px
+}
+
+.wrap .content .btn-login {
+  width: 256px;
+  height: 50px;
+  padding-left: 10px;
+  color: white;
+  background: #F5A623;
+  border-radius: 14px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border: 2px solid #FFFFFF;
+
+}
